@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1C455805-2A4D-4356-83D0-D3376F5C2EEF</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EFDB1C7E34582AC008A1645E2882B7F9A82E4200</key>
+		<string>https://github.com/c33cheun/jobSquare.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EFDB1C7E34582AC008A1645E2882B7F9A82E4200</key>
+		<string>jobSquare/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/c33cheun/jobSquare.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EFDB1C7E34582AC008A1645E2882B7F9A82E4200</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EFDB1C7E34582AC008A1645E2882B7F9A82E4200</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jobSquare</string>
+		</dict>
+	</array>
+</dict>
+</plist>

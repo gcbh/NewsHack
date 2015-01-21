@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541FE65D93D4954854F69794 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B84DFBD5D79639AA78BA3930 /* libPods.a */; };
+		F100D7DE19FB5E60002C4505 /* detail_01_a.png in Resources */ = {isa = PBXBuildFile; fileRef = F100D7D919FB5E60002C4505 /* detail_01_a.png */; };
+		F100D7DF19FB5E60002C4505 /* detail_01_b.png in Resources */ = {isa = PBXBuildFile; fileRef = F100D7DA19FB5E60002C4505 /* detail_01_b.png */; };
+		F100D7E019FB5E60002C4505 /* detail_01_c.png in Resources */ = {isa = PBXBuildFile; fileRef = F100D7DB19FB5E60002C4505 /* detail_01_c.png */; };
+		F100D7E119FB5E60002C4505 /* detail_01_d.png in Resources */ = {isa = PBXBuildFile; fileRef = F100D7DC19FB5E60002C4505 /* detail_01_d.png */; };
+		F100D7E219FB5E60002C4505 /* detail_01_e.png in Resources */ = {isa = PBXBuildFile; fileRef = F100D7DD19FB5E60002C4505 /* detail_01_e.png */; };
+		F16A0F7E19F236DB00FCE3F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A0F7D19F236DB00FCE3F0 /* main.m */; };
+		F16A0F8119F236DB00FCE3F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A0F8019F236DB00FCE3F0 /* AppDelegate.m */; };
+		F16A0F8419F236DB00FCE3F0 /* NHNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A0F8319F236DB00FCE3F0 /* NHNewsViewController.m */; };
+		F16A0F8919F236DB00FCE3F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16A0F8819F236DB00FCE3F0 /* Images.xcassets */; };
+		F16A0F8C19F236DB00FCE3F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16A0F8A19F236DB00FCE3F0 /* LaunchScreen.xib */; };
+		F16A0F9819F236DB00FCE3F0 /* NewsHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A0F9719F236DB00FCE3F0 /* NewsHackTests.m */; };
+		F16A0FA319F23D0500FCE3F0 /* NHNewsViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A0FA219F23D0500FCE3F0 /* NHNewsViewDataSource.m */; };
+		F16A0FA919F2413A00FCE3F0 /* NHHeadline.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A0FA819F2413A00FCE3F0 /* NHHeadline.m */; };
+		F16A0FAB19F2438500FCE3F0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16A0FAA19F2438500FCE3F0 /* Parse.framework */; };
+		F16A0FAD19F243B900FCE3F0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16A0FAC19F243B900FCE3F0 /* AudioToolbox.framework */; };
+		F16A0FAF19F243C200FCE3F0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16A0FAE19F243C200FCE3F0 /* CFNetwork.framework */; };
+		F16A0FB119F243CA00FCE3F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16A0FB019F243CA00FCE3F0 /* CoreLocation.framework */; };
+		F16A0FB319F243D600FCE3F0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F16A0FB219F243D600FCE3F0 /* libz.dylib */; };
+		F16A0FB719F243F100FCE3F0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16A0FB619F243F100FCE3F0 /* StoreKit.framework */; };
+		F16A0FBB19F2456700FCE3F0 /* IMAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A0FBA19F2456700FCE3F0 /* IMAsync.m */; };
+		F16A0FBE19F249D500FCE3F0 /* NHHeadlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A0FBD19F249D500FCE3F0 /* NHHeadlineViewController.m */; };
+		F16A0FC119F2589E00FCE3F0 /* icon_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = F16A0FC019F2589E00FCE3F0 /* icon_menu.png */; };
+		F16A0FC319F258AF00FCE3F0 /* icon_more.png in Resources */ = {isa = PBXBuildFile; fileRef = F16A0FC219F258AF00FCE3F0 /* icon_more.png */; };
+		F16A0FC719F274B700FCE3F0 /* NHFullStoryHongKongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16A0FC619F274B700FCE3F0 /* NHFullStoryHongKongViewController.m */; };
+		F1B462EA19FB79FA007301CB /* NHArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B462E919FB79FA007301CB /* NHArticleViewController.m */; };
+		F1B462EE19FB7CE1007301CB /* NHFullStoryOtakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B462ED19FB7CE1007301CB /* NHFullStoryOtakeViewController.m */; };
+		F1B462F419FB7D3A007301CB /* detail_02_a.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B462EF19FB7D3A007301CB /* detail_02_a.png */; };
+		F1B462F519FB7D3A007301CB /* detail_02_b.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B462F019FB7D3A007301CB /* detail_02_b.png */; };
+		F1B462F619FB7D3A007301CB /* detail_02_c.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B462F119FB7D3A007301CB /* detail_02_c.png */; };
+		F1B462F719FB7D3A007301CB /* detail_02_d.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B462F219FB7D3A007301CB /* detail_02_d.png */; };
+		F1B462F819FB7D3A007301CB /* detail_02_e.png in Resources */ = {isa = PBXBuildFile; fileRef = F1B462F319FB7D3A007301CB /* detail_02_e.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F16A0F9219F236DB00FCE3F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16A0F7019F236DB00FCE3F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16A0F7719F236DB00FCE3F0;
+			remoteInfo = NewsHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490DA67BC6B99D694E98E71B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		98528C33F60BEE0AE968372D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B84DFBD5D79639AA78BA3930 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F100D7D919FB5E60002C4505 /* detail_01_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_01_a.png; sourceTree = "<group>"; };
+		F100D7DA19FB5E60002C4505 /* detail_01_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_01_b.png; sourceTree = "<group>"; };
+		F100D7DB19FB5E60002C4505 /* detail_01_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_01_c.png; sourceTree = "<group>"; };
+		F100D7DC19FB5E60002C4505 /* detail_01_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_01_d.png; sourceTree = "<group>"; };
+		F100D7DD19FB5E60002C4505 /* detail_01_e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_01_e.png; sourceTree = "<group>"; };
+		F16A0F7819F236DB00FCE3F0 /* NewsHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16A0F7C19F236DB00FCE3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16A0F7D19F236DB00FCE3F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F16A0F7F19F236DB00FCE3F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F16A0F8019F236DB00FCE3F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F16A0F8219F236DB00FCE3F0 /* NHNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHNewsViewController.h; sourceTree = "<group>"; };
+		F16A0F8319F236DB00FCE3F0 /* NHNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHNewsViewController.m; sourceTree = "<group>"; };
+		F16A0F8819F236DB00FCE3F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F16A0F8B19F236DB00FCE3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F16A0F9119F236DB00FCE3F0 /* NewsHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16A0F9619F236DB00FCE3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16A0F9719F236DB00FCE3F0 /* NewsHackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsHackTests.m; sourceTree = "<group>"; };
+		F16A0FA119F23D0500FCE3F0 /* NHNewsViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHNewsViewDataSource.h; sourceTree = "<group>"; };
+		F16A0FA219F23D0500FCE3F0 /* NHNewsViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHNewsViewDataSource.m; sourceTree = "<group>"; };
+		F16A0FA519F23DCC00FCE3F0 /* NewsHackPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsHackPrefix.pch; sourceTree = "<group>"; };
+		F16A0FA719F2413A00FCE3F0 /* NHHeadline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHeadline.h; sourceTree = "<group>"; };
+		F16A0FA819F2413A00FCE3F0 /* NHHeadline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHHeadline.m; sourceTree = "<group>"; };
+		F16A0FAA19F2438500FCE3F0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		F16A0FAC19F243B900FCE3F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F16A0FAE19F243C200FCE3F0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F16A0FB019F243CA00FCE3F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F16A0FB219F243D600FCE3F0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F16A0FB419F243E700FCE3F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F16A0FB619F243F100FCE3F0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F16A0FB919F2456700FCE3F0 /* IMAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMAsync.h; path = ../../TechA/jobSquare/jobSquare/jobSquare/IMAsync.h; sourceTree = "<group>"; };
+		F16A0FBA19F2456700FCE3F0 /* IMAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMAsync.m; path = ../../TechA/jobSquare/jobSquare/jobSquare/IMAsync.m; sourceTree = "<group>"; };
+		F16A0FBC19F249D500FCE3F0 /* NHHeadlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHeadlineViewController.h; sourceTree = "<group>"; };
+		F16A0FBD19F249D500FCE3F0 /* NHHeadlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHHeadlineViewController.m; sourceTree = "<group>"; };
+		F16A0FC019F2589E00FCE3F0 /* icon_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_menu.png; path = "../../../Dropbox/Prime News/icons/icon_menu.png"; sourceTree = "<group>"; };
+		F16A0FC219F258AF00FCE3F0 /* icon_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_more.png; path = "../../../Dropbox/Prime News/icons/icon_more.png"; sourceTree = "<group>"; };
+		F16A0FC519F274B700FCE3F0 /* NHFullStoryHongKongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHFullStoryHongKongViewController.h; sourceTree = "<group>"; };
+		F16A0FC619F274B700FCE3F0 /* NHFullStoryHongKongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHFullStoryHongKongViewController.m; sourceTree = "<group>"; };
+		F1B462E819FB79FA007301CB /* NHArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHArticleViewController.h; sourceTree = "<group>"; };
+		F1B462E919FB79FA007301CB /* NHArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHArticleViewController.m; sourceTree = "<group>"; };
+		F1B462EC19FB7CE1007301CB /* NHFullStoryOtakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHFullStoryOtakeViewController.h; sourceTree = "<group>"; };
+		F1B462ED19FB7CE1007301CB /* NHFullStoryOtakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHFullStoryOtakeViewController.m; sourceTree = "<group>"; };
+		F1B462EF19FB7D3A007301CB /* detail_02_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_02_a.png; sourceTree = "<group>"; };
+		F1B462F019FB7D3A007301CB /* detail_02_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_02_b.png; sourceTree = "<group>"; };
+		F1B462F119FB7D3A007301CB /* detail_02_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_02_c.png; sourceTree = "<group>"; };
+		F1B462F219FB7D3A007301CB /* detail_02_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_02_d.png; sourceTree = "<group>"; };
+		F1B462F319FB7D3A007301CB /* detail_02_e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_02_e.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16A0F7519F236DB00FCE3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16A0FB719F243F100FCE3F0 /* StoreKit.framework in Frameworks */,
+				F16A0FB319F243D600FCE3F0 /* libz.dylib in Frameworks */,
+				F16A0FB119F243CA00FCE3F0 /* CoreLocation.framework in Frameworks */,
+				F16A0FAF19F243C200FCE3F0 /* CFNetwork.framework in Frameworks */,
+				F16A0FAD19F243B900FCE3F0 /* AudioToolbox.framework in Frameworks */,
+				F16A0FAB19F2438500FCE3F0 /* Parse.framework in Frameworks */,
+				541FE65D93D4954854F69794 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A0F8E19F236DB00FCE3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA0A90A6BF03AA4935E3D0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				490DA67BC6B99D694E98E71B /* Pods.debug.xcconfig */,
+				98528C33F60BEE0AE968372D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA2658A19A8F3D97E17EAFFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F16A0FB619F243F100FCE3F0 /* StoreKit.framework */,
+				F16A0FB419F243E700FCE3F0 /* QuartzCore.framework */,
+				F16A0FB219F243D600FCE3F0 /* libz.dylib */,
+				F16A0FB019F243CA00FCE3F0 /* CoreLocation.framework */,
+				F16A0FAE19F243C200FCE3F0 /* CFNetwork.framework */,
+				F16A0FAC19F243B900FCE3F0 /* AudioToolbox.framework */,
+				F16A0FAA19F2438500FCE3F0 /* Parse.framework */,
+				B84DFBD5D79639AA78BA3930 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F100D7E319FB5E66002C4505 /* detail 1 */ = {
+			isa = PBXGroup;
+			children = (
+				F100D7D919FB5E60002C4505 /* detail_01_a.png */,
+				F100D7DA19FB5E60002C4505 /* detail_01_b.png */,
+				F100D7DB19FB5E60002C4505 /* detail_01_c.png */,
+				F100D7DC19FB5E60002C4505 /* detail_01_d.png */,
+				F100D7DD19FB5E60002C4505 /* detail_01_e.png */,
+			);
+			name = "detail 1";
+			sourceTree = "<group>";
+		};
+		F16A0F6F19F236DB00FCE3F0 = {
+			isa = PBXGroup;
+			children = (
+				F16A0F7A19F236DB00FCE3F0 /* NewsHack */,
+				F16A0F9419F236DB00FCE3F0 /* NewsHackTests */,
+				F16A0F7919F236DB00FCE3F0 /* Products */,
+				2CA0A90A6BF03AA4935E3D0F /* Pods */,
+				DA2658A19A8F3D97E17EAFFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F16A0F7919F236DB00FCE3F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16A0F7819F236DB00FCE3F0 /* NewsHack.app */,
+				F16A0F9119F236DB00FCE3F0 /* NewsHackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16A0F7A19F236DB00FCE3F0 /* NewsHack */ = {
+			isa = PBXGroup;
+			children = (
+				F16A0FC419F274A000FCE3F0 /* FullStory */,
+				F16A0FBF19F2586700FCE3F0 /* Assets */,
+				F16A0F7F19F236DB00FCE3F0 /* AppDelegate.h */,
+				F16A0F8019F236DB00FCE3F0 /* AppDelegate.m */,
+				F16A0FA419F23D1600FCE3F0 /* NewsView */,
+				F16A0F8819F236DB00FCE3F0 /* Images.xcassets */,
+				F16A0F8A19F236DB00FCE3F0 /* LaunchScreen.xib */,
+				F16A0FA619F23FD900FCE3F0 /* Models */,
+				F16A0FB819F2454F00FCE3F0 /* Server */,
+				F16A0F7B19F236DB00FCE3F0 /* Supporting Files */,
+			);
+			path = NewsHack;
+			sourceTree = "<group>";
+		};
+		F16A0F7B19F236DB00FCE3F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F16A0F7C19F236DB00FCE3F0 /* Info.plist */,
+				F16A0F7D19F236DB00FCE3F0 /* main.m */,
+				F16A0FA519F23DCC00FCE3F0 /* NewsHackPrefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F16A0F9419F236DB00FCE3F0 /* NewsHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				F16A0F9719F236DB00FCE3F0 /* NewsHackTests.m */,
+				F16A0F9519F236DB00FCE3F0 /* Supporting Files */,
+			);
+			path = NewsHackTests;
+			sourceTree = "<group>";
+		};
+		F16A0F9519F236DB00FCE3F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F16A0F9619F236DB00FCE3F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F16A0FA419F23D1600FCE3F0 /* NewsView */ = {
+			isa = PBXGroup;
+			children = (
+				F16A0F8219F236DB00FCE3F0 /* NHNewsViewController.h */,
+				F16A0F8319F236DB00FCE3F0 /* NHNewsViewController.m */,
+				F16A0FA119F23D0500FCE3F0 /* NHNewsViewDataSource.h */,
+				F16A0FA219F23D0500FCE3F0 /* NHNewsViewDataSource.m */,
+				F16A0FBC19F249D500FCE3F0 /* NHHeadlineViewController.h */,
+				F16A0FBD19F249D500FCE3F0 /* NHHeadlineViewController.m */,
+			);
+			name = NewsView;
+			sourceTree = "<group>";
+		};
+		F16A0FA619F23FD900FCE3F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F16A0FA719F2413A00FCE3F0 /* NHHeadline.h */,
+				F16A0FA819F2413A00FCE3F0 /* NHHeadline.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F16A0FB819F2454F00FCE3F0 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				F16A0FB919F2456700FCE3F0 /* IMAsync.h */,
+				F16A0FBA19F2456700FCE3F0 /* IMAsync.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		F16A0FBF19F2586700FCE3F0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F1B462F919FB7D3F007301CB /* detail 2 */,
+				F100D7E319FB5E66002C4505 /* detail 1 */,
+				F16A0FC219F258AF00FCE3F0 /* icon_more.png */,
+				F16A0FC019F2589E00FCE3F0 /* icon_menu.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F16A0FC419F274A000FCE3F0 /* FullStory */ = {
+			isa = PBXGroup;
+			children = (
+				F16A0FC519F274B700FCE3F0 /* NHFullStoryHongKongViewController.h */,
+				F16A0FC619F274B700FCE3F0 /* NHFullStoryHongKongViewController.m */,
+				F1B462E819FB79FA007301CB /* NHArticleViewController.h */,
+				F1B462E919FB79FA007301CB /* NHArticleViewController.m */,
+				F1B462EC19FB7CE1007301CB /* NHFullStoryOtakeViewController.h */,
+				F1B462ED19FB7CE1007301CB /* NHFullStoryOtakeViewController.m */,
+			);
+			name = FullStory;
+			sourceTree = "<group>";
+		};
+		F1B462F919FB7D3F007301CB /* detail 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F1B462EF19FB7D3A007301CB /* detail_02_a.png */,
+				F1B462F019FB7D3A007301CB /* detail_02_b.png */,
+				F1B462F119FB7D3A007301CB /* detail_02_c.png */,
+				F1B462F219FB7D3A007301CB /* detail_02_d.png */,
+				F1B462F319FB7D3A007301CB /* detail_02_e.png */,
+			);
+			name = "detail 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16A0F7719F236DB00FCE3F0 /* NewsHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16A0F9B19F236DB00FCE3F0 /* Build configuration list for PBXNativeTarget "NewsHack" */;
+			buildPhases = (
+				4C2408141811E762B873793C /* Check Pods Manifest.lock */,
+				F16A0F7419F236DB00FCE3F0 /* Sources */,
+				F16A0F7519F236DB00FCE3F0 /* Frameworks */,
+				F16A0F7619F236DB00FCE3F0 /* Resources */,
+				A79B092ECA01FB2F415DE77D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsHack;
+			productName = NewsHack;
+			productReference = F16A0F7819F236DB00FCE3F0 /* NewsHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F16A0F9019F236DB00FCE3F0 /* NewsHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16A0F9E19F236DB00FCE3F0 /* Build configuration list for PBXNativeTarget "NewsHackTests" */;
+			buildPhases = (
+				F16A0F8D19F236DB00FCE3F0 /* Sources */,
+				F16A0F8E19F236DB00FCE3F0 /* Frameworks */,
+				F16A0F8F19F236DB00FCE3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16A0F9319F236DB00FCE3F0 /* PBXTargetDependency */,
+			);
+			name = NewsHackTests;
+			productName = NewsHackTests;
+			productReference = F16A0F9119F236DB00FCE3F0 /* NewsHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16A0F7019F236DB00FCE3F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "News Publisher Japan";
+				TargetAttributes = {
+					F16A0F7719F236DB00FCE3F0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F16A0F9019F236DB00FCE3F0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F16A0F7719F236DB00FCE3F0;
+					};
+				};
+			};
+			buildConfigurationList = F16A0F7319F236DB00FCE3F0 /* Build configuration list for PBXProject "NewsHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16A0F6F19F236DB00FCE3F0;
+			productRefGroup = F16A0F7919F236DB00FCE3F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16A0F7719F236DB00FCE3F0 /* NewsHack */,
+				F16A0F9019F236DB00FCE3F0 /* NewsHackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16A0F7619F236DB00FCE3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F100D7E119FB5E60002C4505 /* detail_01_d.png in Resources */,
+				F16A0FC119F2589E00FCE3F0 /* icon_menu.png in Resources */,
+				F1B462F819FB7D3A007301CB /* detail_02_e.png in Resources */,
+				F1B462F519FB7D3A007301CB /* detail_02_b.png in Resources */,
+				F1B462F419FB7D3A007301CB /* detail_02_a.png in Resources */,
+				F100D7DE19FB5E60002C4505 /* detail_01_a.png in Resources */,
+				F100D7DF19FB5E60002C4505 /* detail_01_b.png in Resources */,
+				F16A0F8C19F236DB00FCE3F0 /* LaunchScreen.xib in Resources */,
+				F100D7E219FB5E60002C4505 /* detail_01_e.png in Resources */,
+				F1B462F619FB7D3A007301CB /* detail_02_c.png in Resources */,
+				F16A0F8919F236DB00FCE3F0 /* Images.xcassets in Resources */,
+				F16A0FC319F258AF00FCE3F0 /* icon_more.png in Resources */,
+				F1B462F719FB7D3A007301CB /* detail_02_d.png in Resources */,
+				F100D7E019FB5E60002C4505 /* detail_01_c.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A0F8F19F236DB00FCE3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C2408141811E762B873793C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A79B092ECA01FB2F415DE77D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16A0F7419F236DB00FCE3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16A0F8419F236DB00FCE3F0 /* NHNewsViewController.m in Sources */,
+				F16A0FA919F2413A00FCE3F0 /* NHHeadline.m in Sources */,
+				F16A0FBE19F249D500FCE3F0 /* NHHeadlineViewController.m in Sources */,
+				F16A0FA319F23D0500FCE3F0 /* NHNewsViewDataSource.m in Sources */,
+				F16A0F8119F236DB00FCE3F0 /* AppDelegate.m in Sources */,
+				F16A0FBB19F2456700FCE3F0 /* IMAsync.m in Sources */,
+				F16A0F7E19F236DB00FCE3F0 /* main.m in Sources */,
+				F16A0FC719F274B700FCE3F0 /* NHFullStoryHongKongViewController.m in Sources */,
+				F1B462EE19FB7CE1007301CB /* NHFullStoryOtakeViewController.m in Sources */,
+				F1B462EA19FB79FA007301CB /* NHArticleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16A0F8D19F236DB00FCE3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16A0F9819F236DB00FCE3F0 /* NewsHackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F16A0F9319F236DB00FCE3F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16A0F7719F236DB00FCE3F0 /* NewsHack */;
+			targetProxy = F16A0F9219F236DB00FCE3F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F16A0F8A19F236DB00FCE3F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16A0F8B19F236DB00FCE3F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F16A0F9919F236DB00FCE3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NewsHack/NewsHackPrefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F16A0F9A19F236DB00FCE3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NewsHack/NewsHackPrefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16A0F9C19F236DB00FCE3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490DA67BC6B99D694E98E71B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NewsHack/NewsHackPrefix.pch;
+				INFOPLIST_FILE = NewsHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F16A0F9D19F236DB00FCE3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98528C33F60BEE0AE968372D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NewsHack/NewsHackPrefix.pch;
+				INFOPLIST_FILE = NewsHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F16A0F9F19F236DB00FCE3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewsHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsHack.app/NewsHack";
+			};
+			name = Debug;
+		};
+		F16A0FA019F236DB00FCE3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewsHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsHack.app/NewsHack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16A0F7319F236DB00FCE3F0 /* Build configuration list for PBXProject "NewsHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16A0F9919F236DB00FCE3F0 /* Debug */,
+				F16A0F9A19F236DB00FCE3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16A0F9B19F236DB00FCE3F0 /* Build configuration list for PBXNativeTarget "NewsHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16A0F9C19F236DB00FCE3F0 /* Debug */,
+				F16A0F9D19F236DB00FCE3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16A0F9E19F236DB00FCE3F0 /* Build configuration list for PBXNativeTarget "NewsHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16A0F9F19F236DB00FCE3F0 /* Debug */,
+				F16A0FA019F236DB00FCE3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16A0F7019F236DB00FCE3F0 /* Project object */;
+}
